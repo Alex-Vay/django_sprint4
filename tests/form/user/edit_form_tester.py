@@ -50,7 +50,7 @@ class EditUserFormTester(BaseFormTester):
     @property
     def textarea_tag(self) -> bs4.Tag:
         raise NotImplementedError(
-            "This tag is not applicable on user profile page."
+            "This tag is not applicable on user.html profile page."
         )
 
     def _validate(self):

@@ -30,7 +30,6 @@ def index(request):
     return render(request, template, context)
 
 
-
 def post_detail(request, post_id):
     template = 'blog/detail.html'
     posts = get_object_or_404(Post, id=post_id)

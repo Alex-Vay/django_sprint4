@@ -17,7 +17,6 @@ from django.contrib import admin
 from django.urls import include, path, reverse_lazy
 from django.views.generic.edit import CreateView
 from django.contrib.auth.forms import UserCreationForm
-from django.conf import settings
 
 urlpatterns = [
     path('', include('blog.urls')),
